@@ -41,7 +41,7 @@ const Signup = () => {
                 type="email"
                 name="email"
                 id="upemail"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-green-300 "
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-gray-400 "
                 placeholder="anthony@example.com"
                 onChange={(e) => {
                   setEmail(e.target.value);
@@ -60,7 +60,7 @@ const Signup = () => {
                 type="password"
                 name="password"
                 id="uppassword"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-green-300"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-gray-400"
                 placeholder="Enter your password"
                 onChange={(e) => {
                   setPassword(e.target.value);
@@ -70,7 +70,7 @@ const Signup = () => {
             </div>
             <div>
               <button
-                className="ml-4 mt-1 bg-green-300 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="ml-4 mt-1 bg-blue-600 hover:bg-green-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 type="submit"
               >
                 S'enregistrer
