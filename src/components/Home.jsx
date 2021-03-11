@@ -13,7 +13,7 @@ const Home = () => {
         type="button"
         onClick={() => {
           Auth.setIsLoggedIn(false);
-          history.push("/");
+          history.push("/login");
         }}
       >
         Se déconnecter
